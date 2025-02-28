@@ -18,7 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFDDFF"
       }
     },
     "web": {
@@ -30,7 +30,7 @@
       [
         "expo-router",
         {
-          "origin": "https://uber.dev/"
+          "origin": "http://localhost:8081/"
         }
       ]
     ],
@@ -39,7 +39,7 @@
     },
     "extra": {
       "router": {
-        "origin": "https://uber.dev/"
+        "origin": "http://localhost:8081/"
       },
       "eas": {
         "projectId": "61512f4c-3c29-45d6-887b-61eec565f805"
