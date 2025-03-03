@@ -35,8 +35,8 @@ export default function Layout() {
     <Tabs
       //   initialRouteName="index"
       screenOptions={{
-        tabBarActiveTintColor: "orange",
-        tabBarInactiveTintColor: "green",
+        tabBarActiveTintColor: "",
+        tabBarInactiveTintColor: "",
         tabBarShowLabel: false,
         tabBarStyle: {
           backgroundColor: "#333333",
@@ -65,32 +65,52 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="rides"
+        name="weather"
         options={{
-          title: "Rides",
+          title: "Weather",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
-            <TabIcon source={icons.list} focused={focused} />
+            <TabIcon source={icons.weather} focused={focused} />
           ),
         }}
       />
       <Tabs.Screen
-        name="chat"
+        name="camera"
         options={{
-          title: "Chat",
+          title: "Camera",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
-            <TabIcon source={icons.chat} focused={focused} />
+            <TabIcon source={icons.camera} focused={focused} />
           ),
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="information"
         options={{
-          title: "Profile",
+          title: "Information",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
-            <TabIcon source={icons.profile} focused={focused} />
+            <TabIcon source={icons.information} focused={focused} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="promotion"
+        options={{
+          title: "Promotion",
+          headerShown: false,
+          tabBarIcon: ({ focused }) => (
+            <TabIcon source={icons.promotion} focused={focused} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="setting"
+        options={{
+          title: "Setting",
+          headerShown: false,
+          tabBarIcon: ({ focused }) => (
+            <TabIcon source={icons.setting} focused={focused} />
           ),
         }}
       />

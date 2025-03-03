@@ -23,6 +23,12 @@ import selectedMarker from "@/assets/icons/selected-marker.png";
 import star from "@/assets/icons/star.png";
 import target from "@/assets/icons/target.png";
 import to from "@/assets/icons/to.png";
+import weather from "@/assets/icons/weather.png";
+import information from "@/assets/icons/information.png";
+import camera from "@/assets/icons/camera.png";
+import promotion from "@/assets/icons/promotion.png";
+import setting from "@/assets/icons/setting.png";
+
 import check from "@/assets/images/check.png";
 import getStarted from "@/assets/images/get-started.png";
 import message from "@/assets/images/message.png";
@@ -31,7 +37,6 @@ import onboarding1 from "@/assets/images/onboarding1.png";
 import onboarding2 from "@/assets/images/onboarding2.png";
 import onboarding3 from "@/assets/images/onboarding3.png";
 import signUpTopBg from "@/assets/images/signup-top-bg.png";
-
 export const images = {
   onboarding1,
   onboarding2,
@@ -69,6 +74,11 @@ export const icons = {
   star,
   target,
   to,
+  weather,
+  setting,
+  camera,
+  information,
+  promotion
 };
 
 export const onboarding = [
