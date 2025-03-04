@@ -20,13 +20,14 @@ export default function Home() {
         className="px-5"
         keyboardShouldPersistTaps="handled"
         contentContainerStyle={{
-          paddingBottom: 100,
+          paddingBottom: 0,
         }}
         ListHeaderComponent={
           <>
             <View className="flex flex-row items-center justify-between my-5">
               <Text className="text-2xl font-JakartaExtraBold">
-                Welcome {user?.firstName}👋
+                {/* Welcome {user?.firstName}👋 */}
+                Home
               </Text>
               <TouchableOpacity
                 onPress={handleSignOut}
